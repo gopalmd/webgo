@@ -1,6 +1,6 @@
 ---
 - name: creationoffolder 
-  hosts: all
+  hosts: 3.84.9.56
   vars:
     mydir: "~/example"
   
