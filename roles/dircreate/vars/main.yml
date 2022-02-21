@@ -1,3 +1,4 @@
 ---
-mydir: ~/ansible/example
+mydir: /tmp/shooting
+
 # vars file for flcreate
