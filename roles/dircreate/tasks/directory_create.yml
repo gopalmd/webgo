@@ -1,11 +1,11 @@
 ---
-- name: Directory module
+- name: creationoffolder 
   hosts: all
   vars:
     mydir: "~/example"
   
   tasks: 
-    - name: Creating a directory
+    - name: a directory
       ansible.builtin.file:
         path: "{{ mydir }}"
         state: directory
