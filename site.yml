@@ -1,5 +1,6 @@
 ---
- - hosts: 3.84.9.56 
+ - hosts: all 
    roles:
    - apache
+   - dircreate
 
