@@ -1,15 +1,9 @@
 ---
-- name: creationoffolder 
-  hosts: 3.84.9.56
-  vars:
-    mydir: "~/example"
-  
-  tasks: 
-    - name: a directory
-      ansible.builtin.file:
-        path: "{{ mydir }}"
-        state: directory
-        owner: ansible
-        groups: ansible
-        mode: '0644'
+- name: a directory
+  ansible.builtin.file:
+    path: "{{ mydir }}"
+    state: directory
+    owner: ansible
+    groups: ansible
+    mode: '0644'
 
