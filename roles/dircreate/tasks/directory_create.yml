@@ -3,7 +3,4 @@
   ansible.builtin.file:
     path: "{{ mydir }}"
     state: directory
-    owner: ansible
-    groups: ansible
-    mode: '0644'
 
