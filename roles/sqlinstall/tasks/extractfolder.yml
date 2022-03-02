@@ -1,0 +1,5 @@
+---
+- name: create a directory for intaller download
+  win_file:
+     path: c:\sql\installer
+     state: directory

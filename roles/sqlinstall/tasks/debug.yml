@@ -1,0 +1,5 @@
+- name: all variables
+  debug:
+    var: hostvars[inventory_hostname]
+    verbosity: 4
+

@@ -1,0 +1,11 @@
+---
+- import_tasks: degug.yml
+- import_tasks: folder.yml
+- import_tasks: extractfolder.yml
+- import_tasks: template.yml
+- import_tasks: netfrm.yml
+- import_tasks: filexists.yml
+- import_tasks: dbinstall.yml
+- import_tasks: service.yml
+# tasks file for sqlinstall
+

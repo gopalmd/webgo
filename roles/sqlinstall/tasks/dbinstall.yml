@@ -1,0 +1,12 @@
+---
+- name: dbe installation
+  win_command: c:\sql\installer\setup.exe /configurationfile=c:\sql\sql_conf.ini
+  args:
+    chdir: c:\sql
+
+- name: Add or update registry for ip port
+  win_regedit:
+    path: 'HKLM:\Software\Microsoft sql server\MSSQL12.{{ sql_instance }}\MSSQLServer\SuperSocketNetLib\Tcp\IPALL'
+    name: TcpPort
+    data: 1433
+  register: win_reg

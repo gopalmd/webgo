@@ -1,0 +1,7 @@
+---
+- name: net framework 35
+  win_feature:
+     name: NET-Framework-Core
+     state: present
+
+

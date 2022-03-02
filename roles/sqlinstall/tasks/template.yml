@@ -1,0 +1,6 @@
+---
+- name: create the configuration file
+  win_template:
+     src: files/sql_conf.ini.j2
+     dest: c:\sql\sql_conf.ini
+
