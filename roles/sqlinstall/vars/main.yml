@@ -1,6 +1,6 @@
 ---
 #jinja2: newline_sequence:"\r\n"
-;SQL Server 2014 Configuration File
+#;SQL Server 2014 Configuration File
 [OPTIONS]
 IACCEPTSQLSERVERLICENSETERMS="True"
 ACTION="Install"
