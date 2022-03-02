@@ -1,5 +1,5 @@
 ---
-- import_tasks: degug.yml
+- import_tasks: debug.yml
 - import_tasks: folder.yml
 - import_tasks: extractfolder.yml
 - import_tasks: template.yml
